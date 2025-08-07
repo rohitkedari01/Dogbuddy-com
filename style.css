@@ -1,0 +1,116 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+.display-5 {
+  color:white !important;
+}
+.lead {
+  color:white;
+}
+.doglogo {
+  height:2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.feature-icon {
+  background-color:00bff !important;
+}
+
+.bg-body-secondary {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-secondary-bg-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.icon-square {
+    width: 3rem !important;
+    height: 3rem !important;
+    border-radius: 0.75rem !important; 
+}
+
+
+.profile-img {
+    border-radius: 50%;
+    height: 100px;
+    margin-top: 3rem !important;
+}
+.icon-square2 {
+  height:1em !important;
+  width:1em !important;
+}
+.lead {
+  color:black !important;
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-top: .5rem !important;
+}
+.containerimages {
+  display: flex;
+  flex-direction: row;
+ 
+}
+.logoimage {
+  flex:1 !important;
+  
+}
+.logo {
+  height:2.5rem;
+}
+
+.footerone {
+   background-color:#ff4c68 !important;
+   color: white !important;
+}
+.nav-item {
+  color: white !important;
+}
+ 
+
+
+
+
+
+
+@media (min-width:768px) and (max-width:991px) {
+  .playstore {
+    margin-bottom: 1rem;
+  }
+  
+}
+@media (min-width:320px) and (max-width:767px) {
+  .playstorebutton {
+    margin-bottom: 1em;
+  }
+}
+@media (max-width:767px) and (min-width:320px) {
+  .containerimages { 
+    flex-direction: column;
+    align-content: center;
+    
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
